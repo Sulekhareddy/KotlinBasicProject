@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         dataList.add(Model("John", 33))
         dataList.add(Model("Sana", 23))
         dataList.add(Model("Jenn", 21))
+        dataList.add(Model("Mac", 18))
+        dataList.add(Model("OS", 21))
 
         val namesAdapter = NamesListAdapter(dataList)
         recyclerView.adapter = namesAdapter
