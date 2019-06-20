@@ -18,6 +18,7 @@ class NamesListAdapter(val userList: ArrayList<Model>) : RecyclerView.Adapter<Na
     override fun onBindViewHolder(holder: NamesListViewHolder, position: Int) {
         holder.name?.text = userList[position].name.toString()
         holder.age?.text = userList[position].age.toString()
+
     }
 
     override fun getItemCount(): Int {
